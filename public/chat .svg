@@ -1,0 +1,11 @@
+<svg id="chat" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <circle id="Ellipse_30" data-name="Ellipse 30" cx="20" cy="20" r="20" fill="#fff"/>
+  <circle id="Ellipse_31" data-name="Ellipse 31" cx="20" cy="20" r="20" fill="#fff"/>
+  <g id="ic_Chatbot" transform="translate(8 8)">
+    <g id="Box" fill="#fd7901" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="24" height="24" stroke="none"/>
+      <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+    </g>
+    <path id="Shape" d="M259.8-597H242.4v12.6a1.8,1.8,0,0,0,1.8,1.8h2.4v4.2l4.2-4.2h10.8v-12.6A1.8,1.8,0,0,0,259.8-597Zm-12.024,4.2a1.2,1.2,0,0,1,1.2,1.2,1.2,1.2,0,0,1-1.2,1.2,1.2,1.2,0,0,1-1.2-1.2A1.2,1.2,0,0,1,247.776-592.8Zm8.4,0a1.2,1.2,0,0,1,1.2,1.2,1.2,1.2,0,0,1-1.2,1.2,1.2,1.2,0,0,1-1.2-1.2A1.2,1.2,0,0,1,256.176-592.8ZM255-587.7a.9.9,0,0,0-.9-.9h-4.2a.9.9,0,0,0-.9.9h0v.3c0,.663,1.343,1.2,3,1.2s3-.537,3-1.2v-.3Z" transform="translate(-239.8 600.2)" fill="#fd7901" fill-rule="evenodd"/>
+  </g>
+</svg>
