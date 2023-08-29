@@ -145,10 +145,14 @@ export default function Home() {
         src="../../components/LcMouseDrag.js"
         onLoad={() => {
           let isFirstRun = sessionStorage.getItem("isFirstRun") ?? true;
-          document.getElementsByClassName("keypoint-1")[0].style.transform = "translate(100px,222px)"
-          //document.getElementsByClassName("keypoint-1")[0].style.top = `${document.getElementById("wrap").offsetHeight * 0.5}px`
-          //document.getElementsByClassName("keypoint-1")[0].style.left = `${document.getElementById("wrap").offsetWidth * 0.5}px`
-          console.log(document.getElementsByClassName("keypoint-1")[0].style.left)
+          //document.getElementsByClassName("keypoint-1")[0].style.transform = "translate(-50%,-50%)"
+          
+          document.getElementById("wrap").style.top = "0px"
+          document.getElementById("wrap").style.left = "0px"
+          
+          document.getElementsByClassName("keypoint-1")[0].style.top = `${((document.getElementById("wrap").offsetHeight * 2.47) / window.innerHeight) * 100 }px`
+          document.getElementsByClassName("keypoint-1")[0].style.left =  `${((document.getElementById("wrap").offsetWidth * 6.323) / window.innerWidth) * 100 }px`
+          
           if (isFirstRun != "false") {
             document.getElementById("popup").style.display = "block";
 

@@ -53,8 +53,8 @@ body:not(.lc_mousedrag_is_mobile) #inner a {
 
 
 .keypoint-1 {
-    position: sticky;
-    z-index: 1;
+    position: absolute;
+    z-index: 100;
     border-radius: 50%;
    
     
