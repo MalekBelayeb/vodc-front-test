@@ -775,13 +775,7 @@ body:not(.lc_mousedrag_is_mobile) #inner a {
         left: 50%;
         right: 50%;
     }
-
-    .homeView {
-
-        transform: translate(-25%);
-
-    }
-
+    
     .video-style {
         transform: translate(-22%);
 
@@ -802,12 +796,6 @@ body:not(.lc_mousedrag_is_mobile) #inner a {
         left: 2%;
         right: 3%;
     }
-
-    
-    
-
-
-
 }
 
 
