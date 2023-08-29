@@ -775,7 +775,7 @@ body:not(.lc_mousedrag_is_mobile) #inner a {
         left: 50%;
         right: 50%;
     }
-    
+
     .video-style {
         transform: translate(-22%);
 
@@ -946,7 +946,7 @@ body:not(.lc_mousedrag_is_mobile) #inner a {
 
   @media screen and (max-width: 768px) {
     video {
-      position: fixed;
+      position: absolute;
       top: 0;
       left: 0;
       width: 100%;
